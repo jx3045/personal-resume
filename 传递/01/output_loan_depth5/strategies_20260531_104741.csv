@@ -1,0 +1,9 @@
+﻿rule,good,bad,total,bad_rate,lift,depth
+PsonAcStatus<=1.5 & CpnyIndustry>14.5 & CpnyMoPayAmt>747.44 & CpnyEcoType<=145.5 & LoanAmt>337737.0,56.0,50.0,106.0,0.4716981132075472,6.843643281937572,5
+PsonAcStatus<=1.5 & CpnyIndustry>14.5 & CpnyMoPayAmt>747.44 & CpnyEcoType>145.5 & CpnyEcoType>245.0,298.0,242.0,540.0,0.44814814814814813,6.501968054380096,5
+PsonAcStatus<=1.5 & CpnyIndustry>14.5 & CpnyMoPayAmt<=747.44 & LoanAmt>306987.0,67.0,36.0,103.0,0.34951456310679613,5.070940342499762,4
+PsonAcStatus<=1.5 & CpnyIndustry<=14.5 & CpnyEcoType>177.0 & CpnyEcoType<=195.0 & CpnyMoPayAmt<=727.35,253.0,51.0,304.0,0.16776315789473684,2.4339957619838497,5
+PsonAcStatus<=1.5 & CpnyIndustry>14.5 & CpnyMoPayAmt>747.44 & CpnyEcoType<=145.5 & LoanAmt<=337737.0,1947.0,368.0,2315.0,0.158963282937365,2.3063225670999636,5
+PsonAcStatus<=1.5 & CpnyIndustry>14.5 & CpnyMoPayAmt<=747.44 & LoanAmt<=306987.0 & CpnyEcoType>182.5,1058.0,175.0,1233.0,0.14193025141930252,2.059198424654371,5
+PsonAcStatus<=1.5 & CpnyIndustry<=14.5 & CpnyEcoType>177.0 & CpnyEcoType>195.0 & PsonPayBase>6071.0,914.0,132.0,1046.0,0.12619502868068833,1.8309035717183653,5
+PsonAcStatus<=1.5 & CpnyIndustry<=14.5 & CpnyEcoType<=177.0 & CpnyEcoType<=115.0 & LoanBal<=111236.2852,990.0,113.0,1103.0,0.10244786944696282,1.4863673477977921,5
